@@ -13,10 +13,14 @@
 \contentsline {subsection}{\numberline {2.2.2}Laser Injection Attack}{6}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Ultrasonic Sound Waves Jamming Attack}{6}{subsection.2.2.3}%
 \contentsline {chapter}{\numberline {3}Implementation Overview}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Implementation Details}{8}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Results}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Known Issues}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{9}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusions}{10}{chapter.6}%
-\contentsline {chapter}{\numberline {A}User Manual}{12}{appendix.A}%
-\contentsline {chapter}{\numberline {B}API}{13}{appendix.B}%
+\contentsline {section}{\numberline {3.1}Goal of the project}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Core Concept}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Key Challenges in Implementing the Core Concept}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Practical Implementation of the Core Concept}{8}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementation Details}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Results}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Known Issues}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{10}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{11}{chapter.6}%
+\contentsline {chapter}{\numberline {A}User Manual}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {B}API}{14}{appendix.B}%
