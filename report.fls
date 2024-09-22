@@ -270,12 +270,6 @@ INPUT ./chapters/references.tex
 INPUT chapters/references.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcti1000.tfm
-INPUT ./appendices/usermanual.tex
-INPUT ./appendices/usermanual.tex
-INPUT appendices/usermanual.tex
-INPUT ./appendices/API.tex
-INPUT ./appendices/API.tex
-INPUT appendices/API.tex
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
