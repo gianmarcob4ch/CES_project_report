@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  21 SEP 2024 19:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.3)  22 SEP 2024 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,9 +338,15 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count302
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count303
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count304
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count303
+\c@float@type=\count305
 \float@exts=\toks31
 \float@box=\box56
 \@float@everytoks=\toks32
@@ -353,18 +359,18 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
  (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count304
-\calc@Bcount=\count305
+\calc@Acount=\count306
+\calc@Bcount=\count307
 \calc@Adimen=\dimen187
 \calc@Bdimen=\dimen188
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count306
+\calc@Ccount=\count308
 \calc@Cskip=\skip70
 )
-\g_MT_multlinerow_int=\count307
+\g_MT_multlinerow_int=\count309
 \l_MT_multwidth_dim=\dimen189
 \origjot=\skip71
 \l_MT_shortvdotswithinadjustabove_dim=\dimen190
@@ -376,14 +382,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \xmathstrut@box=\box58
 \xmathstrut@dim=\dimen196
 )
-\l_EQ_equationtype_int=\count308
-\l_EQ_alignmentmode_int=\count309
+\l_EQ_equationtype_int=\count310
+\l_EQ_alignmentmode_int=\count311
 \l_EQ_totalwidth_dim=\dimen197
 \l_EQ_displaywidth_dim=\dimen198
 \l_EQ_temp_linewidth_dim=\dimen199
 \l_EQ_linewidth_dim=\dimen256
 \EmphEqdelimitershortfall=\dimen257
-\EmphEqdelimiterfactor=\count310
+\EmphEqdelimiterfactor=\count312
 \g_EQ_toptag_height_dim=\dimen258
 \g_EQ_bottomtag_depth_dim=\dimen259
 \g_EQ_toprow_height_dim=\dimen260
@@ -391,7 +397,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \g_EQ_widesttag_dim=\dimen262
 \EQ_mathdisplay_box=\box59
 \EQ_tag_box=\box60
-\g_EQ_temprow_int=\count311
+\g_EQ_temprow_int=\count313
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
@@ -399,11 +405,11 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read3
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count312
+\FV@CodeLineNo=\count314
 \FV@InFile=\read4
 \FV@TabBox=\box61
-\c@FancyVerbLine=\count313
-\FV@StepNumber=\count314
+\c@FancyVerbLine=\count315
+\FV@StepNumber=\count316
 \FV@OutFile=\write3
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -429,7 +435,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 Writing index file report.idx
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
+\l__color_backend_stack_int=\count317
 \l__pdf_internal_box=\box62
 )
 
@@ -439,42 +445,42 @@ LaTeX Warning: Unused global option(s):
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-\c@lstlisting=\count316
-Package hyperref Info: Link coloring OFF on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+\c@lstlisting=\count318
+Package hyperref Info: Link coloring OFF on input line 68.
  (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
+\scratchcounter=\count319
 \scratchdimen=\dimen263
 \scratchbox=\box63
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count320
+\MPscratchCnt=\count322
 \MPscratchDim=\dimen264
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -485,20 +491,20 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<./logopolitonuovo.jpeg, id=104, 401.8212pt x 401.8212pt>
+<./logopolitonuovo.jpeg, id=108, 401.8212pt x 401.8212pt>
 File: ./logopolitonuovo.jpeg Graphic file (type jpg)
 <use ./logopolitonuovo.jpeg>
-Package pdftex.def Info: ./logopolitonuovo.jpeg  used on input line 73.
+Package pdftex.def Info: ./logopolitonuovo.jpeg  used on input line 74.
 (pdftex.def)             Requested size: 170.71652pt x 170.71962pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
@@ -514,7 +520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102 \listoffigures
+l.103 \listoffigures
                      % REMOVE THIS IF THERE ARE NO PICTURES [1
 
 ] (./report.lof)
@@ -554,27 +560,44 @@ Chapter 2.
 Chapter 3.
 [7
 
-]) (./chapters/implementation.tex [8]
+]
+<images/image-removebg-preview.png, id=201, 317.185pt x 277.035pt>
+File: images/image-removebg-preview.png Graphic file (type png)
+<use images/image-removebg-preview.png>
+Package pdftex.def Info: images/image-removebg-preview.png  used on input line 55.
+(pdftex.def)             Requested size: 110.25443pt x 96.29579pt.
+ [8]
+<images/Supports.png, id=207, 682.55pt x 368.37625pt>
+File: images/Supports.png Graphic file (type png)
+<use images/Supports.png>
+Package pdftex.def Info: images/Supports.png  used on input line 63.
+(pdftex.def)             Requested size: 176.40439pt x 95.20222pt.
+<images/Jammer+Supports.png, id=208, 668.4975pt x 376.40625pt>
+File: images/Jammer+Supports.png Graphic file (type png)
+<use images/Jammer+Supports.png>
+Package pdftex.def Info: images/Jammer+Supports.png  used on input line 67.
+(pdftex.def)             Requested size: 176.40439pt x 99.3279pt.
+) (./chapters/implementation.tex [9 <./images/image-removebg-preview.png> <./images/Supports.png> <./images/Jammer+Supports.png>]
 Chapter 4.
-) (./chapters/results.tex [9
+) (./chapters/results.tex [10
 
 ]
 Chapter 5.
-) (./chapters/conclusions.tex [10
+) (./chapters/conclusions.tex [11
 
 ]
 Chapter 6.
-) (./chapters/references.tex [11
+) (./chapters/references.tex [12
 
-]) (./appendices/usermanual.tex [12
+]) (./appendices/usermanual.tex [13
 
 ]
 Appendix A.
-) (./appendices/API.tex [13
+) (./appendices/API.tex [14
 
 ]
 Appendix B.
-) [14
+) [15
 
 ] (./report.aux)
  ***********
@@ -582,21 +605,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2A0EC61E338176CADF016F8BE5DECFA1;4058.
+(rerunfilecheck)             Checksum: 24227B1BA9D8BC80C80509D577570B4C;4216.
  ) 
 Here is how much of TeX's memory you used:
- 15917 strings out of 474116
- 252880 string characters out of 5743683
+ 16066 strings out of 474116
+ 255996 string characters out of 5743683
  1937187 words of memory out of 5000000
- 37996 multiletter control sequences out of 15000+600000
- 564300 words of font info for 59 fonts, out of 8000000 for 9000
+ 38138 multiletter control sequences out of 15000+600000
+ 564599 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1342b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report.pdf (18 pages, 437460 bytes).
+ 75i,12n,79p,1342b,560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on report.pdf (19 pages, 662154 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 

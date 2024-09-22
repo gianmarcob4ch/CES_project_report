@@ -44,3 +44,28 @@ The external power source has been implemented as a set of batteries to ensure p
 Specifically, the batteries are lithium-based and are connected together to achieve the required voltage and power.
 
 Finally, a remote-controlled switch has been integrated, enabling the end user to power the device on and off via the \textit{Home} application in the iOS environment or through the lightweight MQTT protocol.
+
+\section{Final Implementation}
+At this stage, with all functional and non-functional requirements met through the selected components, the final step is to design the device and integrate all elements into a cohesive unit.
+
+The speakers are embedded into a 3D-printed spherical shell with strategically placed openings to house them. 
+This design enables the jamming attack to be performed in nearly a 360-degree radius, maximizing the coverage of the surrounding area.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\linewidth]{images/image-removebg-preview.png}
+    \caption{3D-printed spherical shell}
+\end{figure}
+The shell is mounted on a base that houses the battery along with all the previously mentioned components, including the microcontroller, audio amplifier module, signal generator, and remote-controlled switch. 
+This base provides an organized and concealed arrangement of the internal components, offering the end user a polished and minimalist appearance while maintaining practicality.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.4\linewidth}
+        \includegraphics[width=\linewidth]{images/Supports.png}
+        \caption{Support base}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.4\linewidth}
+        \includegraphics[width=\linewidth]{images/Jammer+Supports.png}
+        \caption{Shell resting on the base}
+    \end{subfigure}
+
+\end{figure}
