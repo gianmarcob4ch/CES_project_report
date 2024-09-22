@@ -22,6 +22,6 @@
 \contentsline {chapter}{\numberline {5}Results}{11}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Known Issues}{11}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Future Work}{11}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusions}{12}{chapter.6}%
-\contentsline {chapter}{\numberline {A}User Manual}{14}{appendix.A}%
-\contentsline {chapter}{\numberline {B}API}{15}{appendix.B}%
+\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.6}%
+\contentsline {chapter}{\numberline {A}User Manual}{15}{appendix.A}%
+\contentsline {chapter}{\numberline {B}API}{16}{appendix.B}%
