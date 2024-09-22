@@ -34,26 +34,74 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}Final Implementation}{8}{section.3.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 3D-printed spherical shell}}{9}{figure.caption.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Final implementation appearance}}{9}{figure.caption.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation Details}{10}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Implementation Details Template}{10}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results}{11}{chapter.5}\protected@file@percent }
+\citation{Arduino}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation Details}{11}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Performance Table}}{11}{table.caption.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Known Issues}{11}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Future Work}{11}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Overview}{11}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Hardware Setup}{11}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Microcontroller - Arduino Uno}{11}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Signal Generator - AD9833}{12}{subsection.5.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}SPI Communication Protocol}{12}{subsection.5.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Pin Configuration for AD9833 Communication}{13}{subsection.5.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{FSYNC (SS/CS) – Pin 10}{13}{subsubsection*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{SCLK (SCK) – Pin 13}{13}{subsubsection*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{FDATA (MOSI) – Pin 11}{13}{subsubsection*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.5}Summary of Pin Roles in SPI for AD9833}{14}{subsection.5.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.6}Ultrasound Transducers}{14}{subsection.5.2.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Beam Angle}}{14}{figure.caption.10}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:transducer_shape}{{5.1}{14}{Beam Angle}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.7}Amplifier - TPA3116D2}{15}{subsection.5.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.8}Power Supply}{15}{subsection.5.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.9}Power Supply}{15}{subsection.5.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.10}ESP8266}{16}{subsection.5.2.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.11}SRD-05VDC-SL-C Relay Module}{17}{subsection.5.2.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Software Development}{17}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Arduino Source Code}{17}{subsection.5.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Libraries Used}{18}{subsubsection*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Code Overview}{18}{subsubsection*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}ESP8266 Code}{19}{subsection.5.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Libraries and Configuration}{19}{subsubsection*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Code Overview}{19}{subsubsection*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Global Definitions and Initialization}{19}{paragraph*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Callback Function}{19}{paragraph*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{MQTT Reconnection}{20}{paragraph*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Wi-Fi Setup}{20}{paragraph*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Setup and Loop Functions}{20}{paragraph*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{HomeKit Integration}{21}{paragraph*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Accessory Definition}{21}{paragraph*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Assembly and Integration}{22}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Physical Assembly}{22}{subsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Testing and Calibration}{22}{subsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results}{23}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Performance Table}}{23}{table.caption.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Known Issues}{23}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Future Work}{23}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusions}{25}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{texbook}{1}
 \bibcite{lamport94}{2}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}User Manual}{15}{appendix.A}\protected@file@percent }
+\bibcite{ad9833}{3}
+\bibcite{tpa3116d2}{4}
+\bibcite{Ultrasonic_Transducer}{5}
+\bibcite{Arduino}{6}
+\bibcite{ESP8266}{7}
+\bibcite{ineltro}{8}
+\bibcite{grobotronics}{9}
+\bibcite{SRD-05VDC-SL-C Relay}{10}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}User Manual}{27}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{usermanual}{{A}{15}{User Manual}{appendix.A}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}API}{16}{appendix.B}\protected@file@percent }
+\newlabel{usermanual}{{A}{27}{User Manual}{appendix.A}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}API}{28}{appendix.B}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{api}{{B}{16}{API}{appendix.B}{}}
-\gdef \@abspage@last{20}
+\newlabel{api}{{B}{28}{API}{appendix.B}{}}
+\gdef \@abspage@last{33}
