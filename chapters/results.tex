@@ -1,6 +1,30 @@
 \chapter{Results}
-In this chapter we expect you to list and explain all the results that you have achieved. Pictures can be useful to explain the results. Think about this chapter as something similar to the demo of the oral presentation. You can also include pictures about use-cases (you can also decide to add use cases to the high level overview chapter).
+\begin{table}[H]
+    \center
+    \begin{tabular}{|c|l|l|l|l|}
+    \hline
+    Device     & Range 1 & Range 2 & Range 3 & Range 4 \\ \hline
+    Smartphone &         &         &         &         \\ \hline
+    PC         &         &         &         &         \\ \hline
+    Smartwatch &         &         &         &         \\ \hline
+    \end{tabular}
+    \caption{Performance Table}
+    \end{table}
+
 \section{Known Issues}
-If there is any known issue, limitation, error, problem, etc...explain it in this section. Use a specific subsection for each known issue. Issues can be related to many things, including design issues.
+Although this implementation fully satisfies the requirements outlined in the \nameref{overview} chapter and achieves respectable performance, the device is still in its prototype phase and is affected by certain issues:
+\begin{itemize}
+    \item Physical barriers: physical barriers can partially or completely negate the jamming attack, as it relies on soundwaves, which are affected by physical laws such as absorption, transmission, and diffraction.
+    \item Range: the current implementation performs adequately at X range, but there is still room for notable improvement.
+    \item Rechargeability of batteries: currently, despite the low energy consumption mitigating the impact of this issue, there is no possibility of recharging the batteries.
+    \item Shell prototype design: The spherical shell's speaker holes are slightly inconsistent in size, with some being larger and others smaller, and the two halves of the sphere are held together in a rudimentary manner.
+\end{itemize}
 \section{Future Work}
-Adding a section about how to improve the project is not mandatory but it is useful to show that you actually understood the topics of the project and have ideas for improvements.
+The concept of this project has successfully achieved its predetermined objectives. 
+However, there are several areas where it could be further improved. 
+
+Given more time, most of the known issues could be addressed: increasing the power to the speaker could enhance the operational range and effectiveness of the jamming attack, and higher-quality materials could be used to improve the robustness of the spherical shell and base.
+
+Another significant improvement would be the addition of a white-noise generator with a dedicated speaker, introducing two potential operational modes for the device. 
+The 'Stealth mode' would maintain the current jamming attack functionality, while the 'Paranoic mode' would activate the white-noise speaker to generate additional distortion, providing the user with greater assurance that nearby microphones cannot capture sensitive conversations.
+Additionally, incorporating the ability to adjust the volume of the white noise could help mitigate the issue caused by physical barriers.
