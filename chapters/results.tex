@@ -3,13 +3,24 @@
     \center
     \begin{tabular}{|c|l|l|l|l|}
     \hline
-    Device     & Range 1 & Range 2 & Range 3 & Range 4 \\ \hline
-    Smartphone &         &         &         &         \\ \hline
-    PC         &         &         &         &         \\ \hline
-    Smartwatch &         &         &         &         \\ \hline
+    Device     & 0-20cm & 20-40cm & 40-60cm & 70+ cm \\ \hline
+    Smartphone & Jammed  & Jammed  & Distorted & Null  \\ \hline
+    PC         & Jammed  & Jammed & Jammed & Null \\ \hline
+    Smartwatch &  Jammed  & Jammed & Jammed & Null \\ \hline
+    Smart speaker & Jammed & Distorted & Null & Null \\ \hline
     \end{tabular}
     \caption{Performance Table}
-    \end{table}
+\end{table}
+The previous table shows how the device performs on different devices at various ranges.
+The power supplied to the device, which is directly related to the operational range of the jamming attack, has been limited to 50W in order to maintain low energy consumption and improve battery life.
+The values are assigned on a perceptual evaluation of the recordings performed during the attack:
+\begin{itemize}
+    \item Jammed: the recording is completely unintelligible.
+    \item Distorted: the recording is intelligible, but with significant difficulty in understanding the content.
+    \item Null: the jamming effect is not perceived.
+\end{itemize}
+The device demonstrated its best performance on PCs and smartwatches, particularly at close-medium range, while smartphones and smart speakers proved to be more resilient to this type of attack. 
+Given the widespread use of this devices, the prototype jammer can be considered effective in most real-world scenarios.
 
 \section{Known Issues}
 Although this implementation fully satisfies the requirements outlined in the \nameref{overview} chapter and achieves respectable performance, the device is still in its prototype phase and is affected by certain issues:

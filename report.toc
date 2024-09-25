@@ -51,8 +51,18 @@
 \contentsline {section}{\numberline {4.4}3D Design}{21}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Assembly and Integration}{21}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Physical Assembly}{21}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Testing and Calibration}{21}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Known Issues}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{23}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusions}{25}{chapter.6}%
+\contentsline {subsection}{\numberline {4.5.2}Testing and Calibration}{22}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Previous Implementations \& Discarded Ideas}{23}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Results}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Known Issues}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{26}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusions}{27}{chapter.6}%
+\contentsline {chapter}{\numberline {A}User Manual}{29}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{29}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Safety Warnings}{29}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Technical Specifications}{29}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Installation Instructions}{30}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Usage Guide}{32}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Maintenance}{32}{section.A.6}%
+\contentsline {section}{\numberline {A.7}Legal Regulations}{33}{section.A.7}%
+\contentsline {section}{\numberline {A.8}Disposal and Recycling}{33}{section.A.8}%
